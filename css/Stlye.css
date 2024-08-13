@@ -1,0 +1,92 @@
+/*=============
+   Css Reset
+================*/
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+
+
+/*=================
+   Formataçao geral
+==================*/
+
+html {
+   font-size: calc(10px + 1vw);
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+html a {
+   text-decoration: none;
+   color: black;
+}
+
+
+/*=================
+   Formataçao do topo da pagina
+==================*/
+
+header{
+   margin: 0 5vw;
+}
+header nav ul{
+  display: flex;
+  justify-content: right;
+  margin: ;
+ }
+ header nav ul li{
+   margin: 1vw 10px 0 10px;
+ }
+
+ header nav ul li.atual a{
+   color:rgb(132, 0, 255) ;
+ }   
+main.works {
+   margin: 11vw;
+}
+main.works h1{
+   font-weight: 100;
+   margin: 0 0 2vw 0;
+   color: #21243d;
+}
+main.works section:last-child {
+   border: none;
+}
+main.works section p {
+   margin: 2vw;
+}
+main.works section p span{
+   color: white;
+   background-color: #ff6464;
+   border-radius: 35px;
+   padding: 2px 7px 2px 7px;
+   font-weight: bold;
+
+}
+ 
+main.works section{
+   border-bottom: 1px solid #e0e0e0;
+   padding:  10vw 0 5vw 0;
+}
+footer {
+   text-align: center;
+   padding: 1vw 0 2vw;
+}
+footer nav ul {
+   display: flex;
+   justify-content: center;
+}
+footer nav ul li a {
+ color: purple;
+}
+footer nav ul li {
+   display: flex;
+   justify-content: center;
+}
+footer nav ul li {
+   margin: 1vw;
+}
