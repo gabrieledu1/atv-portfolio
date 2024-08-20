@@ -24,7 +24,9 @@ html a {
    text-decoration: none;
    color: black;
 }
-
+main  {
+   margin: 11vw;
+}
 
 /*=================
    Formataçao do topo da pagina
@@ -45,9 +47,7 @@ header nav ul{
  header nav ul li.atual a{
    color:rgb(132, 0, 255) ;
  }   
-main.works {
-   margin: 11vw;
-}
+
 main.works h1{
    font-weight: 100;
    margin: 0 0 2vw 0;
@@ -90,3 +90,27 @@ footer nav ul li {
 footer nav ul li {
    margin: 1vw;
 }
+/*===================
+  Formatçao de home page 
+=================*/
+section.banner {
+   display: flex;
+   margin: 6vw 0vw 3vw 0vw;
+}
+
+section.banner h1 {
+   margin: 2vw 0vw 2vw 0vw;
+}
+section.banner button {
+   background-color: #ff6464;
+   color: #e0e0e0;
+   font-size: 1rem;
+   padding: 5px 10px 5px 10px;
+   border-radius: 2px;
+
+}
+section.rt-post{
+   background-color: #e0e0e0;
+   padding: 1.5vw 10px  ;
+}
+
